@@ -1,4 +1,4 @@
-// Settings for SSH machines
+// Settings for SSH machines, rename to settings.json
 {
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
