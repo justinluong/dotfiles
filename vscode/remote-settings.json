@@ -1,0 +1,6 @@
+// Settings for SSH machines
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+}
