@@ -1,5 +1,6 @@
 // Settings for SSH machines, rename to settings.json
 {
+    "python.venvPath": "~/.cache/pypoetry/virtualenvs",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     }
