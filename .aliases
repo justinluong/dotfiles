@@ -1,0 +1,27 @@
+alias gccl="gcloud config configurations list"
+
+gcca() {
+    gcloud config configurations activate $1
+}
+
+wx-infra() {
+    code $HOME/wx/infra-terragrunt
+}
+
+google-dns() {
+    sudo networksetup -setdnsservers Wi-Fi  8.8.8.8  8.8.4.4
+}
+
+default-dns() {
+    sudo networksetup -setdnsservers Wi-Fi Empty
+}
+
+which-dns() {
+    scutil --dns
+}
+
+adc-user() {
+    gcloud auth application-default login
+}
+
+alias github-ansible='open "https://github.com/justinluong/ansible"'
