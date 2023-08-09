@@ -25,3 +25,4 @@ adc-user() {
 }
 
 alias github-ansible='open "https://github.com/justinluong/ansible"'
+alias github-dotfiles='open "https://github.com/justinluong/dotfiles"'
